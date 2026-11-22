@@ -1,0 +1,7 @@
+contact_id,name,email,reminder_type,subject,status,message_id,mode,details,timestamp
+C001,Aarav Sharma,aarav.sharma@example.com,class_reminder,Live Session Reminder: Python Automation,simulated_sent,<179534435947.17715.14569983178148562523@Lohiths-MacBook-Air-2.local>,dry_run,Delivered successfully,2026-11-22T16:15:59.474294
+C002,Priya Patel,priya.patel@example.com,class_reminder,Live Session Reminder: Python Automation,simulated_sent,<179534435947.17715.2972409509471058698@Lohiths-MacBook-Air-2.local>,dry_run,Delivered successfully,2026-11-22T16:15:59.474477
+C003,Rohan Verma,rohan.verma@example.com,payment_reminder,Urgent: Invoice Due Notice,simulated_sent,<179534435947.17715.5170068252831964812@Lohiths-MacBook-Air-2.local>,dry_run,Delivered successfully,2026-11-22T16:15:59.474730
+C004,Sneha Reddy,sneha.reddy@example.com,webinar_alert,Webinar Access: Scaling Python Workflows,simulated_sent,<179534435947.17715.11124273220296644823@Lohiths-MacBook-Air-2.local>,dry_run,Delivered successfully,2026-11-22T16:15:59.474851
+C005,Ananya Iyer,ananya.iyer@example.com,payment_reminder,Friendly Notice: Upcoming Bill,simulated_sent,<179534435947.17715.763424746848265022@Lohiths-MacBook-Air-2.local>,dry_run,Delivered successfully,2026-11-22T16:15:59.474962
+C006,Vikram Malhotra,vikram.unsub@example.com,task_reminder,,skipped,,,User unsubscribed (opt-out compliance),2026-11-22T16:15:59.474981

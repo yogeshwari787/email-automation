@@ -1,0 +1,52 @@
+# Python environment
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Secrets and Environment Variables
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+
+# SQLite Database
+*.db
+*.sqlite3
+data/*.db
+
+# Logs & Temporary outputs
+logs/*.log
+!logs/sample_execution.log
+
+# Node & Next.js (if dashboard is installed)
+node_modules/
+.next/
+out/
+
+# IDE / Editor config
+.vscode/
+.idea/
+*.swp
+.DS_Store

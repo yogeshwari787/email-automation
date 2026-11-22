@@ -1,0 +1,7 @@
+contact_id,name,email,company,role,timezone,due_amount,due_date,course_name,session_time,unsubscribed
+C001,Aarav Sharma,aarav.sharma@example.com,InnoTech Solutions,Software Engineer,Asia/Kolkata,150.00,2026-11-25,Python Automation Bootcamp,7:00 PM IST,False
+C002,Priya Patel,priya.patel@example.com,FinEdge Analytics,Data Analyst,Asia/Kolkata,0.00,2026-11-28,Python Automation Bootcamp,7:00 PM IST,False
+C003,Rohan Verma,rohan.verma@example.com,CloudScale Systems,DevOps Specialist,Asia/Kolkata,450.00,2026-11-24,Advanced Cloud Ops,6:30 PM IST,False
+C004,Sneha Reddy,sneha.reddy@example.com,Apex Healthcare,Operations Lead,Asia/Kolkata,0.00,2026-11-30,Python Automation Bootcamp,7:00 PM IST,False
+C005,Ananya Iyer,ananya.iyer@example.com,NextGen Retail,HR Manager,Asia/Kolkata,220.00,2026-11-23,HR Analytics & Ops,5:00 PM IST,False
+C006,Vikram Malhotra,vikram.unsub@example.com,ScaleUp Media,Product Manager,Asia/Kolkata,0.00,2026-12-01,Product Operations,8:00 PM IST,True

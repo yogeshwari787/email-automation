@@ -1,0 +1,7 @@
+reminder_id,contact_id,reminder_type,title,scheduled_time,recurrence,active
+R101,C001,class_reminder,Live Session Reminder: Python Automation,19:00,DAILY,True
+R102,C002,class_reminder,Live Session Reminder: Python Automation,19:00,DAILY,True
+R103,C003,payment_reminder,Urgent: Invoice Due Notice,10:00,ONEOFF,True
+R104,C004,webinar_alert,Webinar Access: Scaling Python Workflows,15:00,ONEOFF,True
+R105,C005,payment_reminder,Friendly Notice: Upcoming Bill,11:30,ONEOFF,True
+R106,C006,task_reminder,Weekly Sync Follow-Up,17:00,WEEKLY,True

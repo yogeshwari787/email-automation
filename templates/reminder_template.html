@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; background-color: #f4f6f9; margin: 0; padding: 20px; color: #333333; }
+    .container { max-width: 600px; margin: 0 auto; background: #ffffff; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 6px rgba(0,0,0,0.05); border: 1px solid #e1e4e8; }
+    .header { background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%); color: #ffffff; padding: 30px; text-align: center; }
+    .header h1 { margin: 0; font-size: 24px; font-weight: 600; }
+    .content { padding: 30px; line-height: 1.6; }
+    .card { background-color: #f8fafc; border-left: 4px solid #2a5298; padding: 15px 20px; margin: 20px 0; border-radius: 4px; }
+    .card-title { font-weight: 600; color: #1e3c72; margin-bottom: 5px; }
+    .button-container { text-align: center; margin: 30px 0; }
+    .button { background-color: #2563eb; color: #ffffff !important; padding: 12px 28px; text-decoration: none; border-radius: 6px; font-weight: 600; display: inline-block; }
+    .footer { background: #f8fafc; padding: 20px; font-size: 12px; color: #6b7280; text-align: center; border-top: 1px solid #e5e7eb; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>Session Reminder</h1>
+    </div>
+    <div class="content">
+      <p>Hello <strong>{{ name }}</strong>,</p>
+      <p>This is a quick automated reminder regarding your upcoming training session for <strong>{{ course_name }}</strong>.</p>
+      
+      <div class="card">
+        <div class="card-title">Schedule Information</div>
+        <p style="margin: 0;">Time: <strong>{{ session_time }}</strong> ({{ timezone }})</p>
+        <p style="margin: 5px 0 0 0;">Company: <strong>{{ company }}</strong> | Role: <strong>{{ role }}</strong></p>
+      </div>
+
+      <p>Please make sure you have your IDE set up and ready to participate in today's interactive session.</p>
+
+      <div class="button-container">
+        <a href="https://zoom.us/join" class="button">Join Live Session</a>
+      </div>
+
+      <p>Best regards,<br><strong>Operations & Training Team</strong></p>
+    </div>
+    <div class="footer">
+      <p>You received this automated reminder because you are registered for {{ course_name }}.</p>
+      <p>If you wish to unsubscribe, please reply with "STOP" or contact admin.</p>
+    </div>
+  </div>
+</body>
+</html>

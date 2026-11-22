@@ -1,0 +1,14 @@
+[2026-11-22 16:15:59] [INFO] ======================================================================
+[2026-11-22 16:15:59] [INFO] STARTING EMAIL AUTOMATION BATCH RUN [Mode: DRY-RUN SIMULATION]
+[2026-11-22 16:15:59] [INFO] ======================================================================
+[2026-11-22 16:15:59] [INFO] Loaded 6 scheduled reminder records from CSV database.
+[2026-11-22 16:15:59] [INFO] [DRY-RUN SIMULATION] Email to 'Aarav Sharma' <aarav.sharma@example.com> | Subject: 'Live Session Reminder: Python Automation' | MessageID: <179534435947.17715.14569983178148562523@Lohiths-MacBook-Air-2.local>
+[2026-11-22 16:15:59] [INFO] [DRY-RUN SIMULATION] Email to 'Priya Patel' <priya.patel@example.com> | Subject: 'Live Session Reminder: Python Automation' | MessageID: <179534435947.17715.2972409509471058698@Lohiths-MacBook-Air-2.local>
+[2026-11-22 16:15:59] [INFO] [DRY-RUN SIMULATION] Email to 'Rohan Verma' <rohan.verma@example.com> | Subject: 'Urgent: Invoice Due Notice' | MessageID: <179534435947.17715.5170068252831964812@Lohiths-MacBook-Air-2.local>
+[2026-11-22 16:15:59] [INFO] [DRY-RUN SIMULATION] Email to 'Sneha Reddy' <sneha.reddy@example.com> | Subject: 'Webinar Access: Scaling Python Workflows' | MessageID: <179534435947.17715.11124273220296644823@Lohiths-MacBook-Air-2.local>
+[2026-11-22 16:15:59] [INFO] [DRY-RUN SIMULATION] Email to 'Ananya Iyer' <ananya.iyer@example.com> | Subject: 'Friendly Notice: Upcoming Bill' | MessageID: <179534435947.17715.763424746848265022@Lohiths-MacBook-Air-2.local>
+[2026-11-22 16:15:59] [WARNING] SKIPPED | Contact 'Vikram Malhotra' <vikram.unsub@example.com> has unsubscribed.
+[2026-11-22 16:15:59] [INFO] ======================================================================
+[2026-11-22 16:15:59] [INFO] BATCH RUN COMPLETED. Audit Report saved to: outputs/delivery_report_20261122_161559.csv
+[2026-11-22 16:15:59] [INFO] Summary Metrics: {'total_processed': 6, 'sent_or_simulated': 5, 'failed': 0, 'skipped_unsubscribed': 1, 'success_rate_percent': 83.33}
+[2026-11-22 16:15:59] [INFO] ======================================================================
